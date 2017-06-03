@@ -59,16 +59,18 @@ img {
 
 .nomargin {
     margin:0;
-    text-indent: 40px;
 }
 
 .noBlankLines {
     margin:0;
 }
 
+p {
+    text-indent: 40px;
+}
 
 nav {
-    background-color: #aaa;  /*backgroung color #333 */
+    background-color: #ddd;  /*backgroung color #333 */
     margin: 0;
     overflow: hidden;
 }
@@ -87,12 +89,13 @@ nav ul li {
 
 /* Create a style for the first level items */
 nav > ul > li > a {
-    color: #FFF;  /*text color #aaa */
-    background-color:#aaa;  /*backgroung color #FF0 */
+    color: #000;  /*text color #aaa */
+    background-color:#ddd;  /*backgroung color #FF0 */
     display: block;
     line-height: 2em;
     padding: 0.5em 0.5em;
     text-decoration: none;
+    border-style: solid;
 }
 
 
